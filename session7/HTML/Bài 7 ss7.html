@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biểu Mẫu Feedback Phòng Khám Nha Khoa</title>
+    <link rel="stylesheet" href="bai7ss7.css">
+</head>
+<body>
+    <div class="feedback-container">
+        <h1>Biểu Mẫu Feedback Phòng Khám Nha Khoa</h1>
+        
+        <form class="feedback-form">
+            <div class="form-group">
+                <label for="fullname">Họ và tên</label>
+                <input type="text" id="fullname" name="fullname" placeholder="Nhập họ tên" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="example@gmail.com" required>
+            </div>
+
+            <div class="form-group">
+                <label for="service">Dịch vụ đã sử dụng</label>
+                <select id="service" name="service" required>
+                    <option value="">-- Chọn dịch vụ --</option>
+                    <option value="khám-tổng-quát" selected>Khám răng tổng quát</option>
+                    <option value="tẩy-trắng">Tẩy trắng răng</option>
+                    <option value="niềng-răng">Niềng răng</option>
+                    <option value="cấy-implant">Cấy Implant</option>
+                    <option value="nhổ-răng">Nhổ răng</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="satisfaction">Mức độ hài lòng</label>
+                <select id="satisfaction" name="satisfaction" required>
+                    <option value="">-- Chọn mức độ --</option>
+                    <option value="rất-hài-lòng" selected>Rất hài lòng</option>
+                    <option value="hài-lòng">Hài lòng</option>
+                    <option value="bình-thường">Bình thường</option>
+                    <option value="không-hài-lòng">Không hài lòng</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="feedback">Nội dung phản hồi</label>
+                <textarea id="feedback" name="feedback" rows="5" placeholder="Hãy cho chúng tôi biết cảm nhận của bạn..."></textarea>
+            </div>
+
+            <button type="submit" class="submit-btn">Gửi feedback</button>
+        </form>
+    </div>
+</body>
+</html>

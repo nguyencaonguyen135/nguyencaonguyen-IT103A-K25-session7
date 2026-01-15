@@ -1,0 +1,33 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+.poster {
+    width: 500px;
+    border: 2px solid black;
+    margin: auto;
+}
+.poster h2 {
+    color: rgb(245, 159, 0);
+    text-align: left;
+    padding: 5px 20px;
+    margin: 1px 0;
+}
+.poster img {
+    width: 500px;
+}
+.poster h1 {
+    font-weight: bold;
+    padding: 5px 20px;
+}
+.poster h3 {
+    color: rgb(56, 228, 56);
+    font-size: 25px;
+    padding: 10px 20px;
+    margin: -20px 0;
+}
+.poster p {
+    opacity: 0.7;
+    padding: 5px 20px;
+    line-height: 1.5;
+    font-size: 20px;
+}

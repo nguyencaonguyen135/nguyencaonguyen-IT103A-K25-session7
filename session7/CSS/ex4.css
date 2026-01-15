@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+}
+.services {
+    display: flex;       
+    justify-content: center;
+    background-color:#f8f8f8;
+    padding: 30px;
+    width: 60%;
+    margin: auto;
+}
+.box {
+    width: 250px;          
+    padding: 15px;         
+    margin: 10px;          
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    text-align: center;
+    background: #fff;
+}
+.box h3 {
+    color: #00bfff;
+    margin-bottom: 10px;
+}
+.box p {
+    color: #555;
+    font-size: 14px;
+    line-height: 1.5;
+}

@@ -1,0 +1,31 @@
+body {
+    font-family: "Times New Roman", serif;
+}
+
+.banner {
+    width: 100%;
+    border: 2px solid black;
+    padding: 10px 0;
+}
+
+.banner-top {
+    background: #1eff29; 
+    padding: 40px;
+    text-align: center;
+}
+
+.banner-top h1 {
+    font-size: 32px;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+.banner-bottom {
+    text-align: center;
+    padding:20px;
+}
+
+.banner-bottom p {
+    margin: 0;
+    font-size: 16px;
+}
